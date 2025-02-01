@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday My Love!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Terms & Conditions Page -->
+  <div id="termsPage">
+    <div class="terms-card">
+      <h1>Birthday Contract for My Bubu</h1>
+      <div class="terms-list">
+        <ol>
+          <li>By accepting, you agree to be loved unconditionally 24/7/365</li>
+          <li>You consent to endless cuddle sessions (minimum 23 hours daily)</li>
+          <li>You surrender all rights to personal space until further notice</li>
+          <li>You acknowledge that your smile is my favorite birthday decoration</li>
+          <li>You accept mandatory morning kisses (even with morning breath)</li>
+          <li>You agree I'm legally entitled to 23 birthday kisses (non-negotiable)</li>
+          <li>You forfeit the right to resist surprise romantic gestures</li>
+          <li>You permit me to stare at you adoringly for 23-minute intervals</li>
+          <li>You consent to being called "Birthday Princess" all day</li>
+          <li>You agree all desserts must be shared (but you get the first bite)</li>
+          <li>You accept that "I love you" must be said 23 times today</li>
+          <li>You surrender rights to deny cheesy compliments</li>
+          <li>You agree to dance with me whenever our song plays</li>
+          <li>You consent to being spoiled rotten for 24 hours straight</li>
+          <li>You accept that my hands will find yours at all possible moments</li>
+          <li>You agree to laugh at my jokes (even the terrible ones)</li>
+          <li>You permit unlimited PDA privileges for the birthday girl</li>
+          <li>You consent to midnight birthday wishes with proper cuddling</li>
+          <li>You agree this contract renews automatically every year</li>
+          <li>Most importantly, you accept that YOU'RE THE BEST THING THAT EVER HAPPENED TO ME ❤️</li>
+        </ol>
+      </div>
+      <button id="acceptTerms" disabled>Scroll to Accept ➤</button>
+    </div>
+  </div>
+
+  <!-- Main App (Hidden Initially) -->
+  <div id="app" class="hidden">
+    <!-- Homepage -->
+    <div id="homePage">
+      <h1 id="birthdayMessage"></h1>
+      <button id="startButton">Start the Quiz! 🎉</button>
+    </div>
+
+    <!-- Question Section -->
+    <div id="questionContainer" class="hidden card">
+      <h2 id="questionText"></h2>
+      <div id="options">
+        <button id="yesButton" class="card-button">Yes ❤️</button>
+        <button id="noButton" class="card-button">No 😢</button>
+      </div>
+    </div>
+
+    <!-- End Screen -->
+    <div id="endScreen" class="hidden card">
+      <h2>Thank You for Being Amazing!!</h2>
+      <p>I love you more than anything in this world, my bubu. 🌍💖</p>
+      <button id="restartButton">Restart the Quiz! 🔄</button>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" src="happy-birthday-song.mp3" loop></audio>
+  </div>
+
+  <!-- Custom Particles -->
+  <canvas id="particleCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
